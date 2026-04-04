@@ -4487,6 +4487,8 @@
 "location_detail.action.beacon_or_navilens.hint" = "Double tap to launch NaviLens or set an audio beacon, based on how close this location is";
 "troubleshooting.tile_server_url.explanation" = "This is the server from which Soundscape retrieves map data. You normally should not need to change this unless you are developing or testing Soundscape.";
 "troubleshooting.tile_server_url" = "Tile Server URL";
+"troubleshooting.tile_server_url.hint" = "Change or reset the tile server web address.";
 "troubleshooting.user_data" = "User Data";
 "troubleshooting.user_data.button" = "Delete All Markers and Routes";
 "troubleshooting.user_data.explanation" = "Delete all map data, including saved markers and routes. This action cannot be undone.";
+"troubleshooting.user_data.hint" = "Clear map data and delete all markers and routes.";

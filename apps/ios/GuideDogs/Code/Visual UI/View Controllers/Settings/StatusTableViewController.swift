@@ -153,7 +153,7 @@ class StatusTableViewController: BaseTableViewController {
             cell.button.removeTarget(nil, action: nil, for: .touchUpInside)
             cell.button.addTarget(self, action: #selector(urlTouchUpInside), for: .touchUpInside)
             cell.button.accessibilityLabel = GDLocalizedString("troubleshooting.tile_server_url")
-            cell.button.accessibilityHint = GDLocalizedString("troubleshooting.tile_server_url.explanation")
+            cell.button.accessibilityHint = GDLocalizedString("troubleshooting.tile_server_url.hint")
             cell.button.backgroundColor = Colors.Background.primary
             cell.label.text = SettingsContext.shared.servicesHostName
             cell.label.textAlignment = .left
@@ -179,7 +179,7 @@ class StatusTableViewController: BaseTableViewController {
             cell.button.removeTarget(nil, action: nil, for: .touchUpInside)
             cell.button.addTarget(self, action: #selector(deleteUserDataTouchUpInside), for: .touchUpInside)
             cell.button.accessibilityLabel = GDLocalizedString("troubleshooting.user_data.button")
-            cell.button.accessibilityHint = GDLocalizedString("troubleshooting.user_data.explanation")
+            cell.button.accessibilityHint = GDLocalizedString("troubleshooting.user_data.hint")
             cell.button.backgroundColor = Colors.Background.error
             cell.label.text = GDLocalizedString("troubleshooting.user_data.button")
             return cell

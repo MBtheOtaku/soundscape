@@ -550,6 +550,9 @@
 /* Explanation of the tile server URL setting. {NumberedPlaceholder="Soundscape"} */
 "troubleshooting.tile_server_url.explanation" = "This is the server from which Soundscape retrieves map data. You normally should not need to change this unless you are developing or testing Soundscape.";
 
+/* VoiceOver hint that explains the action of the tile server URL button. */
+"troubleshooting.tile_server_url.hint" = "Change or reset the tile server web address.";
+
 /* Title of the table section that contains info about the current accuracy of the phone's GPS signal provided by Apple's Location Services feature. */
 "troubleshooting.gps_status" = "Location Accuracy";
 
@@ -591,6 +594,9 @@
 
 /* Explanation for the user data section in troubleshooting */
 "troubleshooting.user_data.explanation" = "Delete all map data, including saved markers and routes. This action cannot be undone.";
+
+/* VoiceOver hint that explains the action of the delete markers and routes button. */
+"troubleshooting.user_data.hint" = "Clear map data and delete all markers and routes.";
 
 //------------------------------------------------------------------------------
 // MARK: Settings (About)
